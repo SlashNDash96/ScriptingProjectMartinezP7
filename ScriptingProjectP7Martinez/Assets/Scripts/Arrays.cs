@@ -13,7 +13,7 @@ public class Arrays : MonoBehaviour
 
         for (int i = 0; i < players.Length; i++)
         {
-            Debug.Log("PLayer Number "+i+" is named " + players[i].name);
+            Debug.Log("PLayer Number "+(i+1) + " is named " + players[i].name);
         }
     }
 
